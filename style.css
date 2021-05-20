@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+html {
+ height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+  }
+  
+h1 {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+}
+
+.box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box img {
+    display: flex;
+    max-width: 100%;
+}
+
+.small_box {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 10px;
+}
+
+.home_box {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contact_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.column_box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.article_container {
+    width: 500px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: center;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.article_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border: 1px solid red;
+}
+
+.article_image img {
+    max-width: 200px;
+}
+
+.article_text {
+    font-size: 12px;
+}
+
+.primary_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondary_nav {
+    display: flex;
+    flex-direction: row;
+}
