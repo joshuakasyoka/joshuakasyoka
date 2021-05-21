@@ -1,0 +1,134 @@
+.left_nav {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.right_nav {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.blue_small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.blue_small img {
+    height: 75px;
+}
+
+.blue_small img:hover {
+    opacity: 0.5;
+}
+
+.left-margin {
+    margin-left: 100px;
+}
+
+.top-margin {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.bottom-margin {
+    margin-bottom: 100px;
+}
+
+.icon_one {
+    margin-left: -54px;
+    height: 30px !important;
+}
+
+.icon_two {
+    margin-left: -60px;
+    height: 30px !important;
+}
+
+.icon_three {
+    margin-left: -54px;
+    height: 30px !important;
+}
+
+.text_one {
+    margin-left: -195px;
+    margin-top: -25px;
+    height: 30px !important;
+}
+
+.text_two {
+    height: 100px !important;
+    margin-top: -240px;
+}
+
+.text_three {
+    height: 150px !important;
+    margin-left: -475px;
+    margin-top: 50px;
+}
+
+.green_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.green_circle img {
+    height: 250px;
+}
+
+.green_circle img:hover {
+    height: 275px;
+}
+
+.red_circle {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    flex-direction: column;
+}
+
+.red_circle img {
+    height: 350px;
+}
+
+.red_circle img:hover {
+    animation-name: red_move;
+    animation-duration: 4s;
+  }
+
+  @keyframes red_move {
+    0% {
+      
+    }
+    50% {
+      
+      margin-left: -100px;
+    }
+    100% {
+      
+    }
+  }
+
+.yellow_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.yellow_circle img {
+    height: 400px;
+}
+
+.yellow_circle img:hover {
+    height: 425px;
+}

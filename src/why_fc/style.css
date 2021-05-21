@@ -1,0 +1,48 @@
+.about_me_page {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.why_fc_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.overlap {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 100px;
+}
+
+.josh_green_text {
+    object-fit: scale-down;
+    margin-top: -200px;
+}
+
+.overlap:hover {
+    animation-name: nav_bar_move;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes nav_bar_move {
+    0% {
+     margin-left: 0px;
+    }
+    70% {
+      margin-left: -100px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+  }
