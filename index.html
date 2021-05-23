@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <html>
     <body>
-        <a href="src/home/home.html">
-            <div class="box">
+        
+        <div class="box">
+            <a class="index_blob" href="src/home/home.html">
                 <img src="assets/green_blob.png" alt="green_blob">
-                <h1>enter</h1>
-            </div>
-        </a>
+                <h1 id="enter_text">enter</h1>
+            </a>
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+        </div>
+            
+
+
+        <script type="text/javascript">
+            function setTheme(themeName) {
+                localStorage.setItem('theme', themeName);
+                document.documentElement.className = themeName;
+            }
+            
+
+            function toggleTheme() {
+                if (localStorage.getItem('theme') === 'theme-dark') {
+                    setTheme('theme-light');
+                } else {
+                    setTheme('theme-dark');
+                }
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                if (localStorage.getItem('theme') === 'theme-dark') {
+                    setTheme('theme-dark');
+                    document.getElementById('slider').checked = false;
+                } else {
+                    setTheme('theme-light');
+                    document.getElementById('slider').checked = true;
+                };
+            })
+        </script>
     </body>
 </html>

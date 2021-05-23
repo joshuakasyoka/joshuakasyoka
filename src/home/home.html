@@ -35,14 +35,14 @@
                         <img src="assets/Codewars_logo.png" class="icon_one" alt="git_logo"></img>
                     </div>
                 </a>
-        
+                <a href="../why_fc/why_fc.html">
                     <div class="red_circle">
-                        <a href="../why_fc/why_fc.html"><img src="assets/red_blob.png" alt="red_blob"></img></a>
+                        <img src="assets/red_blob.png" alt="red_blob"></img>
                         <img src="assets/founders_coders.png" class="text_two" alt="about_me"></img>
                     </div>
-                
+                </a>
 
-                <a href="https://github.com/joshuakasyoka"></a>
+                <a href="https://github.com/joshuakasyoka">
                     <div class="blue_small bottom-margin">
                         <img src="assets/blue_blob.png" alt="bottom_blue_blob"></img>
                         <img src="assets/github_logo.png" class="icon_three" alt="git_logo"></img>
@@ -53,5 +53,15 @@
             </div>
             </div>
         </div>
+
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                if (localStorage.getItem('theme') === 'theme-dark') {
+                    document.documentElement.className = 'theme-dark';
+                } else {
+                    document.documentElement.className = 'theme-light';
+                };
+            })
+        </script>
     </body>
 </html>

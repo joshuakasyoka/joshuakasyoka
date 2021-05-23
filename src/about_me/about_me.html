@@ -6,23 +6,10 @@
     <body>
         
             <div class="about_me_nav">
-                <div class="overlap">
-                    <a href="../home/home.html"> <img src="assets/green_semi.png" alt="green_semi"></img> </a>
-                 <img src="assets/josh_text.png" class="josh_green_text" alt="josh_green"></img>
-                </div>
-
-                <script type="text/javascript">
-                    window.onscroll = function() {scrollFunction()};
-                    
-                    function scrollFunction() {
-                      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                        document.getElementsByClassName("overlap").style.height = "30px";
-                      } else {
-                        document.getElementsByClassName("overlap").style.height = "90px";
-                      }
-                    }
-                </script>
-                
+                <a class="overlap" href="../home/home.html">
+                    <img id="about_me_header_blob" src="assets/green_semi.png" alt="green_semi"></img>
+                    <img id="about_me_header_text" src="assets/josh_text.png" class="josh_green_text" alt="josh_green"></img>
+                </a>
             </div>
 
              <div class="header">
@@ -59,7 +46,32 @@
                     </div>
                 </div>
             </div>
-    
+
+        <script type="text/javascript">
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("about_me_header_blob").style.height = "75px";
+                    document.getElementById("about_me_header_text").style.height = "30px";
+                    document.getElementById("about_me_header_text").style.marginTop = "0px";
+                } else {
+                    document.getElementById("about_me_header_blob").style.height = "270px";
+                    document.getElementById("about_me_header_text").style.height = "93px";
+                    document.getElementById("about_me_header_text").style.marginTop = "-200px";
+                }
+            }
+        </script>
+
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                if (localStorage.getItem('theme') === 'theme-dark') {
+                    document.documentElement.className = 'theme-dark';
+                } else {
+                    document.documentElement.className = 'theme-light';
+                };
+            })
+        </script>
     </body>
 </html>
 

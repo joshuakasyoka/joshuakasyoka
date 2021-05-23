@@ -6,12 +6,12 @@
 <html>
     <body>
       <div class="why_fc_nav">
-        <div class="overlap">
-            <a href="../home/home.html"> <img src="assets/Subtract (1).png" alt="green_semi"></img> </a>
-        </div>
+          <a class="overlap" href="../home/home.html">
+            <img src="assets/Subtract (1).png" alt="green_semi"></img>
+          </a>
     </div>
       <div class="slide_container">
-        <button class="navButtons" onclick="handleSlideClick(-1)">BACKY</button>
+        <button class="navButtons" id="back" onclick="handleSlideClick(-1)">BACK</button>
         <div class="slide">
           <img id="slide_image"></img>
           <div id="slide_info">
@@ -19,7 +19,7 @@
             <p id="slide_text"></p>
           </div>
         </div>
-        <button class="navButtons" onclick="handleSlideClick(1)">NEXT</button>
+        <button class="navButtons" id="next" onclick="handleSlideClick(1)">NEXT</button>
       </div>
 
       <script type="text/javascript"> //src="data.json">
@@ -36,6 +36,7 @@
           }
         ]
       </script> 
+
       <script type="text/javascript"> // src="article.js">
         var slideId = 0
           document.addEventListener("DOMContentLoaded", function() {
@@ -52,11 +53,35 @@
 
             headingElement.innerHTML = article.heading;
             textElement.innerHTML = article.text;
+
+            var backButton = document.getElementById("back")
+            var nextButton = document.getElementById("next")
+
+            if(id == 0) {
+              console.log(backButton)
+              backButton.style.visibility = "hidden"
+              nextButton.style.visibility = "visible"
+            } else if (id == articleData.length-1) {
+              nextButton.style.visibility = "hidden"
+              backButton.style.visibility = "visible"
+            } else {
+              backButton.style.visibility = "visible"
+              nextButton.style.visibility = "visible"
+            }
           }
           function handleSlideClick(direction) {
             slideId += direction
             populateSlide(slideId)
           }
       </script>
+              <script type="text/javascript">
+                document.addEventListener("DOMContentLoaded", function() {
+                    if (localStorage.getItem('theme') === 'theme-dark') {
+                        document.documentElement.className = 'theme-dark';
+                    } else {
+                        document.documentElement.className = 'theme-light';
+                    };
+                })
+            </script>
     </body>
 </html>
