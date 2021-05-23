@@ -101,22 +101,9 @@
 }
 
 .red_circle img:hover {
-    animation-name: red_move;
-    animation-duration: 4s;
-  }
-
-  @keyframes red_move {
-    0% {
-      
-    }
-    50% {
-      
-      margin-left: -100px;
-    }
-    100% {
-      
-    }
-  }
+    height: 370px;
+}
+    
 
 .yellow_circle {
     display: flex;

@@ -1,0 +1,12 @@
+[
+  {
+    "img_src": "assets/illustration.jpg",
+    "heading": "The Best Illustration",
+    "text": "This is some illustration work"
+  },
+  {
+    "img_src": "assets/illustration.jpg",
+    "heading": "The Next Best Illustration",
+    "text": "This is some other illustration work"
+  }
+]
