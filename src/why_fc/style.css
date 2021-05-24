@@ -43,3 +43,32 @@
     object-fit: scale-down;
     margin-top: -200px;
   }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+  }
+
+  .photo_text {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .photo_text img {
+      height: 400px;
+  }
+
+.list_of_photo_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+}

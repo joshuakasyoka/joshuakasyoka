@@ -52,9 +52,10 @@
             
             function scrollFunction() {
                 if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    console.log(document);
                     document.getElementById("about_me_header_blob").style.height = "75px";
                     document.getElementById("about_me_header_text").style.height = "30px";
-                    document.getElementById("about_me_header_text").style.marginTop = "0px";
+                    document.getElementById("about_me_header_text").style.marginTop = "20px";
                 } else {
                     document.getElementById("about_me_header_blob").style.height = "270px";
                     document.getElementById("about_me_header_text").style.height = "93px";

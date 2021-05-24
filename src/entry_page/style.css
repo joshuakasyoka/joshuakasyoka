@@ -1,9 +1,32 @@
+.middle {
 
-.index_blob {
     display: flex;
     align-items: center;
-    text-decoration: none;
+    position: relative;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.home:hover {
+    transform: rotate(20deg);
+}
+
+.enter {
+
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
     color: var(--font-color);
+
+}
+
+.enter_text {
+    margin-top: -240px;
+}
+
+.theme_toggle {
+    margin-top: 100px;
 }
 
 
@@ -14,6 +37,7 @@
     display: inline-block;
     width: 60px;
     height: 34px;
+    margin-top: 50px;
   }
   /* Hide default HTML checkbox */
 .switch input {

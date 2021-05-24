@@ -13,7 +13,7 @@ html {
   }
 
 .theme-dark {
-    --color-background: black;
+    --color-background: #FFBB37;
     --color-primary: #17ed90;
     --color-secondary: #2a2c2d;
     --color-accent: #12cdea;
@@ -40,7 +40,6 @@ p {
     height: 100%;
     display: flex;
     align-items: center;
-    position: relative;
 }
 
 .box img {

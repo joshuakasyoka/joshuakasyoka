@@ -6,19 +6,21 @@
 <html>
     <body>
         
-        <div class="box">
-            <a class="index_blob" href="src/home/home.html">
-                <img src="assets/green_blob.png" alt="green_blob">
-                <h1 id="enter_text">enter</h1>
-            </a>
-            <label id="switch" class="switch">
+        <div class="middle">
+            
+            <a class="overlap" href="../home/home.html">
+                <div class="enter">
+                <img src="assets/green_blob.png" class="home" alt="green_blob">
+                <img src="assets/Enter Text.png" class="enter_text" alt="enter_text">
+            
+                <label id="switch" class="switch">
                 <input type="checkbox" onchange="toggleTheme()" id="slider">
                 <span class="slider round"></span>
-            </label>
+                </label>
+            </div></a>
+            
         </div>
             
-
-
         <script type="text/javascript">
             function setTheme(themeName) {
                 localStorage.setItem('theme', themeName);
