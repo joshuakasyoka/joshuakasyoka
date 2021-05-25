@@ -1,21 +1,32 @@
-.why_fc_nav {
+.page_divide {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-.overlap {
+.left_side {
   display: flex;
+  justify-content: left;
+  align-items: flex-start;
   flex-direction: column;
-  position: fixed;
-  margin-top: 220px;
-}.slide_container {
+}
+
+.image_text_overlap {
+  margin-top: -210px;
+  margin-left: 10px;
+  height: 90px;
+}
+
+.hover:hover {
+    margin-left: -10px;
+}
+
+.slide_container {
   min-height: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  margin-right: 200px;
 }
 
 .navButtons {
@@ -24,31 +35,26 @@
   outline:none;
   width: 40px;
   height: 40px;
-  background-color: white;
-  color: blue;
+  color: orangered;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 .slide {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .slide_info {
   display: flex;
-  flex-direction: column;
-}
-
-#previous_button {
-  width: 40px;
-  height: 40px;
-}
-#next_button {
-  width: 40px;
-  height: 40px;
+  flex-direction: column; 
 }
 
 #slide_image {
-  width: 250px;
+  width: 400px;
 }
 
 #slide_text {

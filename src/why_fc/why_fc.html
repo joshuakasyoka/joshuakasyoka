@@ -7,12 +7,12 @@
     <body>
         <div class="why_fc_nav">
                 <a class="overlap" href="../home/home.html">
-                    <img src="assets/red_semi_circle.png" alt="red_semi"></img>
-                    <img src="assets/why_fac.png" class="fact_text" alt="josh_green"></img>
+                    <img id="why_fc_header_blob" src="assets/red_semi_circle.png" alt="red_semi"></img>
+                    <img id="why_fc_header_text" src="assets/why_fac.png" class="fact_text" alt="josh_green"></img>
                 </a>
                 
         </div>
-
+        <div class ="about_me_container">
             <div class="header">
                 <p>
                  Hello, my name is Josh. I am first an foremost an aspiring designer and excited by the possibilities that programing will introduce me to
@@ -47,20 +47,20 @@
                     </div>
                 </div>
             </div>
+        </div>
 
              <script type="text/javascript">
                 window.onscroll = function() {scrollFunction()};
                 
                 function scrollFunction() {
                     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                        console.log(document);
-                        document.getElementById("about_me_header_blob").style.height = "75px";
-                        document.getElementById("about_me_header_text").style.height = "30px";
-                        document.getElementById("about_me_header_text").style.marginTop = "20px";
+                        document.getElementById("why_fc_header_blob").style.height = "75px";
+                        document.getElementById("why_fc_header_text").style.height = "40px";
+                        document.getElementById("why_fc_header_text").style.marginTop = "20px";
                     } else {
-                        document.getElementById("about_me_header_blob").style.height = "270px";
-                        document.getElementById("about_me_header_text").style.height = "93px";
-                        document.getElementById("about_me_header_text").style.marginTop = "-200px";
+                        document.getElementById("why_fc_header_blob").style.height = "270px";
+                        document.getElementById("why_fc_header_text").style.height = "93px";
+                        document.getElementById("why_fc_header_text").style.marginTop = "-200px";
                     }
                 }
             </script>

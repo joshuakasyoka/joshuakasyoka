@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<html>
-    <body>
-        
-        <div class="middle">
-            
-            <a class="overlap" href="../home/home.html">
-                <div class="enter">
-                <img src="assets/green_blob.png" class="home" alt="green_blob">
-                <img src="assets/Enter Text.png" class="enter_text" alt="enter_text">
-            
-                <label id="switch" class="switch">
-                <input type="checkbox" onchange="toggleTheme()" id="slider">
-                <span class="slider round"></span>
-                </label>
-            </div></a>
-            
-        </div>
-            
-        <script type="text/javascript">
+	<link rel="stylesheet" href="../../global.css">
+		<link rel="stylesheet" href="style.css">
+		</head>
+		<html>
+			<body>
+				<div class="middle">
+					<a class="overlap" href="../home/home.html">
+						<div class="enter">
+							<img src="assets/green_blob.png" class="home" alt="green_blob">
+								<img src="assets/Enter Text.png" class="enter_text" alt="enter_text">
+									<label id="switch" class="switch">
+										<input type="checkbox" onchange="toggleTheme()" id="slider">
+											<span class="slider round"></span>
+										</label>
+									</div>
+								</a>
+							</div>
+							<script type="text/javascript">
             function setTheme(themeName) {
                 localStorage.setItem('theme', themeName);
                 document.documentElement.className = themeName;
@@ -46,5 +42,5 @@
                 };
             })
         </script>
-    </body>
-</html>
+						</body>
+					</html>

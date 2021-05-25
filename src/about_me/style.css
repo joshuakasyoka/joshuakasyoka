@@ -1,3 +1,8 @@
+.about_me_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .about_me_page {
     display: flex;
     flex-direction: column;
@@ -68,4 +73,17 @@
     justify-content: center;
     margin-top: 50px;
     flex-direction: column;
+}
+
+.text {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.last_text {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: orangered;
+  border-width: 3px;
 }
