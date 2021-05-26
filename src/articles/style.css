@@ -6,13 +6,12 @@
 
 .left_side {
   display: flex;
-  justify-content: left;
   align-items: flex-start;
   flex-direction: column;
 }
 
 .image_text_overlap {
-  margin-top: -210px;
+  margin-top: -200px;
   margin-left: 10px;
   height: 90px;
 }
@@ -63,5 +62,5 @@
 }
 
 #slide_text {
-  width: 400px;
+  width: 500px;
 }

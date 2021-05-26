@@ -87,3 +87,16 @@
   border-color:  #fd6f53;
   border-width: 3px;
 }
+
+.photo_text img {
+  border-radius: 50%;
+  height: 350px;
+}
+
+.side {
+  margin-left: 20px;
+}
+
+.side_right {
+    margin-right: 20px;
+}
