@@ -3,26 +3,27 @@
 	<link rel="stylesheet" href="../../global.css">
 		<link rel="stylesheet" href="style.css">
 		</head>
-		<html>
+		
 			<body>
 				<div class="page_divide">
-          <div class="left_side">
-				    <a href="../home/home.html"> 
+          <a href="../home/home.html"> 
+            <nav class="left_side">
             <img src="assets/Intersect.png" class="hover" alt="yellow_semi"></img>
 						<img src="assets/my_contribution.png" class="image_text_overlap" alt="my_contribution"></img>
-          </div></a>
+          </nav>
+        </a>
           
-				<div class="slide_container">
+				<section class="slide_container">
 					<button class="navButtons" id="back" onclick="handleSlideClick(-1)">BACK</button>
-					<div class="slide">
+					<article class="slide">
 						<img id="slide_image"></img>
 						<div id="slide_info">
 							<h1 id="slide_heading"></h1>
 							<p id="slide_text"></p>
 						</div>
-					</div>
+					</article>
 					<button class="navButtons" id="next" onclick="handleSlideClick(1)">NEXT</button>
-        </div>
+        </section>
       </div>
       
 				<script type="text/javascript"> //src="data.json">
@@ -104,5 +105,5 @@
                 })
             </script>
 			</body>
-		</html>
+	
     
