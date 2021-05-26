@@ -119,3 +119,13 @@
 .yellow_circle img:hover {
     height: 425px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.green_top {
+    margin-top: 30px;
+    margin-left: 100px;
+}
