@@ -42,6 +42,10 @@
   margin-bottom: 60px;
 }
 
+.navButtons:hover {
+  opacity: 30%;
+}
+
 .slide {
   display: flex;
   flex-direction: row;
@@ -51,12 +55,13 @@
 .slide_info {
   display: flex;
   flex-direction: column; 
+  
 }
 
 #slide_image {
-  width: 400px;
+  width: 300px;
 }
 
 #slide_text {
-  width: 250px;
+  width: 400px;
 }

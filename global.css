@@ -7,12 +7,14 @@ html {
 .theme-light {
     --color-background: white;
     --color-accent: #fd6f53;
-    --font-color: #000000;
+    --font-color: #504A4A;
+    --header-color: 
   }
 
 .theme-dark {
     --color-background: #A7B3D3;
-    --font-color: #fd6f53;
+    --font-color: #ffffff;
+    --header-color: #fd6f53;
 }
 
 body {
@@ -25,7 +27,7 @@ body {
   
 h1 {
     font-size: 15px;
-    color: #504A4A;
+    color: var(--header-color);
     text-align: justify;
 }
 
