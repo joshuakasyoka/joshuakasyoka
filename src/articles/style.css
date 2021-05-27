@@ -54,11 +54,10 @@
 .slide_info {
   display: flex;
   flex-direction: column; 
-  
 }
 
 #slide_image {
-  width: 300px;
+  width: 500px;
 }
 
 #slide_text {
