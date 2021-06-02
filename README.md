@@ -9,28 +9,28 @@ To access this webpage go to `https://joshuakasyoka.github.io/joshuakasyoka/src/
 ### Structure
 
 Website
---> assets (holds all global images used throughout whole website)
---> src
-----> a_webpage_folder
--------> assets (holds all images for this webpage)
--------> webpage.html (the html structure for this webpage)
--------> style.css (the style for this webpage)
---> global.css (the style for any global classes or ids)
---> style.css (TODO: need to merge into global)
+* assets (holds all global images used throughout whole website)
+* src
+    * a_webpage_folder
+        * assets (holds all images for this webpage)
+        * webpage.html (the html structure for this webpage)
+        * style.css (the style for this webpage)
+* global.css (the style for any global classes or ids)
+* style.css (TODO: need to merge into global)
 
 ### Key F&C Requirements
 
 #### Basic
-[x] All code is written by you
-[x] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine)
-[x] Tells us about why you are applying for the programme
-[x] Hosted on GitHub Pages
-[x] Links back to the GitHub repository that contains the code for your site
-[x] Links to your public freeCodeCamp profile
-[x] Links to your Codewars profile
+- [x] All code is written by you
+- [x] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine)
+- [x] Tells us about why you are applying for the programme
+- [x] Hosted on GitHub Pages
+- [x] Links back to the GitHub repository that contains the code for your site
+- [x] Links to your public freeCodeCamp profile
+- [x] Links to your Codewars profile
 
 Additional
-[x] Links to illustration portfolio
+- [x] Links to illustration portfolio
 
 #### Technical criteria 
 [x] **Semantic HTML5 elements**
