@@ -33,13 +33,13 @@ Additional
 - [x] Links to illustration portfolio
 
 #### Technical criteria 
-[x] **Semantic HTML5 elements**
+- [x] **Semantic HTML5 elements**
 Site uses semantic HTML throughout, mostly <nav>, <header>, <section> and <article>
 
-[x] CSS grid or flexbox layout (or both)
+- [x] CSS grid or flexbox layout (or both)
 **Uses flexbox as this is what I've learned online to use and makes most sense to me**
 
-[x] DOM event listeners for user interaction (e.g. click, keydown)
+- [x] DOM event listeners for user interaction (e.g. click, keydown)
 
 **On my articles page added 'next' and 'back' buttons**
 - This me to get from an array of objects the details to render on the webpage. This keeps the html code clean as I add more information to my page, and makes it easier to maintain (and demonstrate to F&C that I can use javascript in the website). *adapted from various online tutorials*
@@ -51,7 +51,7 @@ Site uses semantic HTML throughout, mostly <nav>, <header>, <section> and <artic
 - - 4. To avoid going to negative index, or above the length of the list, hide 'back' when on `slideId = 0` and hide 'next' when on `slideId = articleData.length-1`
 
 
-[x] DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles)
+- [x] DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles)
 
 **On the entry page allow the user to change the theme**
 - This changes the background colour, text colour and header colour using css variables
