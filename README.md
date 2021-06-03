@@ -45,10 +45,10 @@ Site uses semantic HTML throughout, mostly <nav>, <header>, <section> and <artic
 - This me to get from an array of objects the details to render on the webpage. This keeps the html code clean as I add more information to my page, and makes it easier to maintain (and demonstrate to F&C that I can use javascript in the website). *adapted from various online tutorials*
 - JSON -> create a Javascript Object called `articleData` which stores the source for each image `articleData[i].src` and the heading and text.
 - JS -> all JS is basic js using `document.getElementById` or `setAttribute` or `style.`
-- - 1. When website loads, call `populateSlide()` which fetches the first object (i.e - slideId is 0) and changes the elements to add the src, heading and text.
-- - 2. When click 'next', increment slideId and then call populate slide to get the next slide
-- - 3. when click 'back', decrease slideId by 1, then call populate slide to get the previous slide.
-- - 4. To avoid going to negative index, or above the length of the list, hide 'back' when on `slideId = 0` and hide 'next' when on `slideId = articleData.length-1`
+    - 1. When website loads, call `populateSlide()` which fetches the first object (i.e - slideId is 0) and changes the elements to add the src, heading and text.
+    - 2. When click 'next', increment slideId and then call populate slide to get the next slide
+    - 3. when click 'back', decrease slideId by 1, then call populate slide to get the previous slide.
+    - 4. To avoid going to negative index, or above the length of the list, hide 'back' when on `slideId = 0` and hide 'next' when on `slideId = articleData.length-1`
 
 
 - [x] DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles)
